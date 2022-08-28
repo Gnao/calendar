@@ -7,7 +7,7 @@ void main() {
 /// サンプル画面
 class MyApp extends StatelessWidget {
   /// コンストラクタ
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
 ///　MyAppのstate
 class MyHomePage extends StatefulWidget {
   ///　コンストラクタ
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({super.key, required this.title});
 
   /// タイトル
   final String title;
